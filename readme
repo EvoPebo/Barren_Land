@@ -1,0 +1,7 @@
+The main file for this program is in Main.java. The only other class is in DisjointSet.java.
+- DisjointSet.java contains a simplified weighted union disjoint set that initializes every index in the array to -1. 
+  Each index is then updated to point to their new root, or if the index is a root, it is set to negative amount of items in set.
+- Main.java contains code to help readfile inputs or terminal inputs. It is currently set to give a prompt and take rectangle 
+  bounds from stdin when run. All rectangles need to be input as the first line. For example: 
+  {"0 0 1 1", "0 0 1 2", "0 0 0 1"}
+- IntelliJ community edition is the IDE in which I wrote, built, and ran this code.
